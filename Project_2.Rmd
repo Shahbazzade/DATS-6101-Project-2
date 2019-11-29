@@ -1222,7 +1222,7 @@ stargazer(weight_glm.f, weight_glm_m, out='ahw_weight.htm')
 ```
 
 
-### SMART QUESTION 4 
+### SMART QUESTION III 
 #### 4.3 Does GDP determine winning/losing? Does it affect number of participants? Number of male/female participants?  
 
 
