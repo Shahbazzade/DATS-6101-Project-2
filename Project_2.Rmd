@@ -204,7 +204,7 @@ Our inspiration for the following tests revolved around questions regarding meda
 # years from 2000 -2010, country, number of male
 
 male_won_medals <- subset(summer_events, Sex == 'M')
-#library(data.table)
+library(data.table)
 male_won_medals <- as.data.table(male_won_medals)
 table1 <- subset(male_won_medals, select = c("Year", "NOC"), Year>=2000)
 
