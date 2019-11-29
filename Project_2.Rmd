@@ -201,7 +201,6 @@ Our inspiration for the following tests revolved around questions regarding meda
 
 ```{r  echo=FALSE, include=TRUE}
 # Table 1 - The number of male athletes from 2000 to 2018 by country
-# years from 2000 -2010, country, number of male
 
 male_won_medals <- subset(summer_events, Sex == 'M')
 library(data.table)
@@ -214,8 +213,8 @@ tb1 %>% arrange(desc(n))
 ```
 
 ```{r  echo=FALSE, include=TRUE}
-# Table 2 - The number of male athletes from 2000 to 2018 by country
-# years from 2000 -2010, country, number of females
+# Table 2 - The number of female athletes from 2000 to 2018 by country
+
 female_won_medals <- subset(summer_events, Sex == 'F')
 female_won_medals <- as.data.table(female_won_medals)
 table2 <- subset(female_won_medals, select = c("Year", "NOC"), Year>=2000)
